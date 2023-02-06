@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JARVIS</title>
+
+    <link rel="prelaod" href="jarvis.png">
+    <link rel="prelaod" href="user.png">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://www.jarvis.rushi.ml">
+    
+    <link rel="preload" href="Poppins/value1.woff2">
+    <link rel="preload" href="Poppins/value2.woff2">
+    <link rel="preload" href="Poppins/value3.woff2">
+    <link rel="preload" href="Poppins/value4.woff2">
+    <link rel="preload" href="Poppins/value5.woff2">
+    <link rel="preload" href="Poppins/value6.woff2">
+    <link rel="preload" href="Poppins/value7.woff2">
+    <link rel="preload" href="Poppins/value8.woff2">
+
+    <link rel="shortcut icon" href="jarvis.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="jarvis.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Poppins/Poppins.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="header">
+                <span class="title">JARVIS</span>
+                <span class="source">
+                    <a href="jarvis.zip" download title="Download JARVIS">
+                        <img src="download.svg" alt="download">
+                    </a>
+                </span>
+            </div>
+            <div class="response-area">
+                
+                <div class="jarvis">
+                    <img src="jarvis.png" alt="jarvis">
+                    <span class="jarvis-res">
+                        Hello, I am Jarvis.
+                    </span>
+                </div>
+
+            </div>
+            <div class="input-area">
+                <input type="text" class="input" id="input" name="input" placeholder="Message 'JARVIS'" autocomplete="off">
+                <button onclick="submit()">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+
+    <script type="text/javascript">
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('/serviceWorker.js');
+        }
+    </script>
+</body>
+</html>

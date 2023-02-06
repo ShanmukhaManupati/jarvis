@@ -1,0 +1,3 @@
+const obj = {
+    hello: "hi"
+}

@@ -1,0 +1,41 @@
+{
+    "background_color": "#ffffff",
+    "description": "Just A Rather Very Intelligent Sysmtem (JARVIS) helps you in day-to-day activities. It enhance the work.",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "JARVIS",
+    "orientation": "portrait",
+    "scope": ".",
+    "short_name": "JARVIS",
+    "start_url": ".",
+    "theme_color": "#ffffff",
+    "categories": [
+      "entertainment",
+      "personalization",
+      "productivity",
+      "security",
+      "social",
+      "utilities"
+    ],
+    "icons": [
+      {
+        "src": "/jarvis.png",
+        "type": "image/x-icon"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "JARVIS",
+        "url": "https://www.jarvis.rushi.ml",
+        "icons": [
+          {
+            "src": "jarvis.png"
+          }
+        ],
+        "description": "Just A Rather Very Intelligent System"
+      }
+    ],
+    "lang": "en",
+    "iarc_rating_id": "above 3",
+    "prefer_related_applications": false
+  }
